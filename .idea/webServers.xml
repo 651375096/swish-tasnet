@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e8efa050-af75-48cc-b2e4-69d6c06a43f6" name="172.20.213.14">
+        <fileTransfer rootFolder="/home/chenyang" accessType="SFTP" host="172.20.213.14" port="22" sshConfigId="61fff25d-15e8-4f4e-adce-af737e9c59e7" sshConfig="chenyang@172.20.213.14:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="46aea701-b9b9-43eb-92ff-76baed253d6e" name="云服务器">
+        <fileTransfer accessType="SFTP" host="region-3.seetacloud.com" port="14966" sshConfigId="153836e1-564a-489d-86c5-4ce8ac87cf0e" sshConfig="root@region-3.seetacloud.com:14966 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="37fe46a0-7737-4574-a0a3-765a5053afdf" name="dcxx3:172.24.216.122">
+        <fileTransfer accessType="SFTP" host="172.24.216.122" port="22" sshConfigId="6b491f8a-c4f4-464d-bcd7-9c0f46d79598" sshConfig="dcxx@172.24.216.122:22:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="465c417e-dee9-4d44-a8ef-5401bc785645" name="172.24.216.120">
+        <fileTransfer rootFolder="/home/dcxx" accessType="SFTP" host="172.24.216.120" port="22" sshConfigId="a9694ddc-f80c-4909-a11d-5dc32d566bae" sshConfig="dcxx@172.24.216.120:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="5d65f885-97a7-43cd-86d4-e26dacb90e84" name="云服务器2号">
+        <fileTransfer accessType="SFTP" host="region-3.seetacloud.com" port="29371" sshConfigId="ccf02d6a-7d72-4396-a55e-c48da54caee9" sshConfig="root@region-3.seetacloud.com:29371 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="439e3f8b-02c2-4cf5-affd-87b56500dc69" name="172.24.246.121">
+        <fileTransfer accessType="SFTP" host="172.24.216.121" port="22" sshConfigId="0561f9d3-b097-4bd2-b763-fec63c3e8eee" sshConfig="dcxx@172.24.216.121:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

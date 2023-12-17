@@ -1,0 +1,33 @@
+data:
+  mode: min
+  n_src: 3
+  sample_rate: 44100
+  segment: 3.0
+  task: sep_clean
+  train_dir: ./voice_data/json/tr
+  valid_dir: ./voice_data/json/cv
+filterbank:
+  kernel_size: 18
+  n_filters: 512
+  stride: 8
+masknet:
+  bn_chan: 128
+  hid_chan: 512
+  mask_act: swish #已经测试elu/relu/sigmoid/softmax/tanh/swish/linear/leaky_relu
+  n_blocks: 1 #  n_blocks: 8
+  n_repeats: 7 #  n_repeats: 3
+  skip_chan: 128 # 233 skip_chan: 128
+  skip_add: 0 #####0/1 关闭/开启skip增加
+  convblock: 0 #3 #####0/1 关闭/开启skip增加
+optim:
+  lr: 0.001
+  optimizer: adam
+  weight_decay: 0.0
+positional arguments: {}
+training:
+  batch_size: 1
+  early_stop: true
+#  epochs: 300##原来的
+  epochs: 10
+  half_lr: true
+  num_workers: 8

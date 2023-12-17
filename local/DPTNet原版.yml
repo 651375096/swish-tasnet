@@ -1,0 +1,40 @@
+data:
+  mode: min
+  n_src: 2
+  sample_rate: 8000
+  segment: 4.0
+  task: sep_clean
+  train_dir: /home/yanghailong/speech/data/New/out/tr
+  valid_dir: /home/yanghailong/speech/data/New/out/cv
+filterbank:
+  kernel_size: 2
+  n_filters: 32
+  stride: 1
+masknet:
+  bidirectional: true
+  chunk_size: 250
+  dropout: 0
+  ff_activation: relu
+  ff_hid: 256
+  hop_size: 125
+  in_chan: 32
+  mask_act: relu
+  n_repeats: 3
+  norm_type: gLN
+  out_chan: 32
+optim:
+  lr: 0.001
+  optimizer: adam
+  weight_decay: 1.0e-05
+positional arguments: {}
+scheduler:
+  d_model: 64
+  noam_scale: 0.2
+  steps_per_epoch: 10000
+training:
+  batch_size: 1
+  early_stop: true
+  epochs: 10 #####200
+  gradient_clipping: 5
+  half_lr: true
+  num_workers: 8

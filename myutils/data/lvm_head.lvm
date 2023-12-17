@@ -1,0 +1,32 @@
+LabVIEW Measurement	
+Writer_Version	2
+Reader_Version	2
+Separator	
+Decimal_Separator	.
+Multi_Headings	Yes
+X_Columns	No
+Time_Pref	Absolute
+Date	2021/06/21
+Time	18:05:40.9584076881408691295
+***End_of_Header***	
+	
+***Start_Special***								
+Wfm_Sclr_Meas								
+Chan 1								
+	Value	Units	Hi_Lvl	Mid_Lvl	Lo_Lvl	Lvl_Units	Units_Method	Other_Chan
+Period	0.017	s	-	50	-	Percentage	Base-Top	-
+Frequency	60.002	Hz	-	50	-	Percentage	Base-Top	-
+Voltage Average	4.703	V	-	-	-	-	-	-
+Voltage Amplitude	4.71	V	-	-	-	-	-	-
+Voltage Peak-to-Peak	7.631	V	-	-	-	-	-	-
+***End_Special***								
+Channels	2							
+Samples	50000000	50000000						
+Date	2021/06/21	2021/06/21						
+Time	18:05:40.9584076881408691295	18:05:40.9584076881408691295						
+Y_Unit_Label	V	V						
+X_Dimension	Time	Time						
+X0	-1.0000000240000001E-1	-1.0000000240000001E-1						
+Delta_X	4.000000E-9	4.000000E-9						
+***End_of_Header***								
+X_Value	Chan 0	Chan 1	Comment

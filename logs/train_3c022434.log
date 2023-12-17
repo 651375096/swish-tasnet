@@ -1,0 +1,37 @@
+{'data': {'mode': 'min',
+          'n_src': 2,
+          'sample_rate': 8000,
+          'segment': 3.0,
+          'task': 'sep_clean',
+          'train_dir': '/home/yanghailong/speech/data/New/out/tr',
+          'valid_dir': '/home/yanghailong/speech/data/New/out/cv'},
+ 'filterbank': {'kernel_size': 2, 'n_filters': 64, 'stride': 1},
+ 'main_args': {'corpus': 'wsj0-mix',
+               'exp_dir': 'exp/train_DPRNNTasNet_wsj0-mix_sep_clean_from_scratch_3c022434/',
+               'help': None,
+               'model': 'DPRNNTasNet',
+               'real_batch_size': 1,
+               'resume_ckpt': None,
+               'save_top_k': -1,
+               'strategy': 'from_scratch'},
+ 'masknet': {'bidirectional': True,
+             'bn_chan': 128,
+             'chunk_size': 250,
+             'dropout': 0,
+             'hid_size': 128,
+             'hop_size': 125,
+             'in_chan': 64,
+             'mask_act': 'relu',
+             'n_repeats': 6,
+             'out_chan': 64},
+ 'optim': {'lr': 0.001, 'optimizer': 'adam', 'weight_decay': 0.0},
+ 'positional arguments': {},
+ 'training': {'batch_size': 2,
+              'early_stop': True,
+              'epochs': 100,
+              'gradient_clipping': 5,
+              'half_lr': True,
+              'num_workers': 8}}
+Drop 970 utts(0.07 h) from 20000 (shorter than 24000 samples)
+Drop 201 utts(0.01 h) from 5000 (shorter than 24000 samples)
+Validation sanity check: 0it [00:00, ?it/s]Validation sanity check:   0%|          | 0/2 [00:00<?, ?it/s]Validation sanity check:  50%|█████     | 1/2 [00:05<00:05,  5.59s/it]Validation sanity check: 100%|██████████| 2/2 [00:11<00:00,  5.57s/it]                                                                      Training: 0it [00:00, ?it/s]Training:   0%|          | 0/23829 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/23829 [00:00<?, ?it/s] Epoch 0:   0%|          | 1/23829 [00:17<114:02:21, 17.23s/it]Epoch 0:   0%|          | 1/23829 [00:17<114:02:32, 17.23s/it, loss=nan, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 2/23829 [00:31<104:01:41, 15.72s/it, loss=nan, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 2/23829 [00:31<104:01:46, 15.72s/it, loss=7.87, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 3/23829 [00:46<102:08:37, 15.43s/it, loss=7.87, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 3/23829 [00:46<102:08:40, 15.43s/it, loss=7.87, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 4/23829 [01:01<101:55:06, 15.40s/it, loss=7.87, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 4/23829 [01:01<101:55:08, 15.40s/it, loss=4.41, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 5/23829 [01:16<100:50:18, 15.24s/it, loss=4.41, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 5/23829 [01:16<100:50:21, 15.24s/it, loss=4.41, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 6/23829 [01:31<100:24:49, 15.17s/it, loss=4.41, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 6/23829 [01:31<100:24:51, 15.17s/it, loss=3.13, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 7/23829 [01:47<101:14:02, 15.30s/it, loss=3.13, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 7/23829 [01:47<101:14:04, 15.30s/it, loss=3.13, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 8/23829 [02:02<101:16:02, 15.30s/it, loss=3.13, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 8/23829 [02:02<101:16:04, 15.30s/it, loss=2.37, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 9/23829 [02:17<101:27:08, 15.33s/it, loss=2.37, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 9/23829 [02:17<101:27:10, 15.33s/it, loss=2.37, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 10/23829 [02:33<101:28:13, 15.34s/it, loss=2.37, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 10/23829 [02:33<101:28:14, 15.34s/it, loss=1.87, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 11/23829 [02:48<101:18:52, 15.31s/it, loss=1.87, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 11/23829 [02:48<101:18:54, 15.31s/it, loss=1.87, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 12/23829 [03:03<101:19:56, 15.32s/it, loss=1.87, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 12/23829 [03:03<101:19:57, 15.32s/it, loss=1.47, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 13/23829 [03:18<101:01:01, 15.27s/it, loss=1.47, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 13/23829 [03:18<101:01:02, 15.27s/it, loss=1.47, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 14/23829 [03:33<101:00:38, 15.27s/it, loss=1.47, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 14/23829 [03:33<101:00:39, 15.27s/it, loss=1.38, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 15/23829 [03:49<101:01:49, 15.27s/it, loss=1.38, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 15/23829 [03:49<101:01:53, 15.27s/it, loss=1.38, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 16/23829 [04:04<101:06:19, 15.28s/it, loss=1.38, v_num=0, val_loss=6.950]Epoch 0:   0%|          | 16/23829 [04:04<101:06:20, 15.28s/it, loss=1.21, v_num=0, val_loss=6.950]

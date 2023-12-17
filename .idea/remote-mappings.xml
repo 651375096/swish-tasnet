@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://chenyang@172.20.213.14:22/home/chenyang/local/miniconda3/envs/conv_tasnet_lty/bin/python3.7">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/chenyang/wave-tasnet" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://chenyang@172.20.213.14:22/home/chenyang/local/miniconda3/envs/conv_tasnet_lty/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/chenyang/wave-tasnet" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://root@region-3.seetacloud.com:14966/root/miniconda3/envs/conv_tasnet_lty3/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/root/autodl-tmp/chenyang/tasnet" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://root@region-3.seetacloud.com:14966/root/miniconda3/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/root/autodl-tmp/chenyang/tasnet" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://root@region-3.seetacloud.com:14966/root/autodl-tmp/environment/conv_tasnet_lty/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/root/autodl-tmp/chenyang/tasnet" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@sftp://dcxx@172.24.216.120:22/home/dcxx/chenyang/local/miniconda3/envs/conv_tasnet_lty/bin/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/home/dcxx/chenyang/tasnet" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>

@@ -1,0 +1,37 @@
+{'data': {'mode': 'min',
+          'n_src': 2,
+          'sample_rate': 8000,
+          'segment': 3.0,
+          'task': 'sep_clean',
+          'train_dir': '/home/yanghailong/speech/data/New/out/tr',
+          'valid_dir': '/home/yanghailong/speech/data/New/out/cv'},
+ 'filterbank': {'kernel_size': 2, 'n_filters': 64, 'stride': 1},
+ 'main_args': {'corpus': 'wsj0-mix',
+               'exp_dir': 'exp/train_DPRNNTasNet_wsj0-mix_sep_clean_from_scratch_2f93917f/',
+               'help': None,
+               'model': 'DPRNNTasNet',
+               'real_batch_size': 1,
+               'resume_ckpt': None,
+               'save_top_k': -1,
+               'strategy': 'from_scratch'},
+ 'masknet': {'bidirectional': True,
+             'bn_chan': 128,
+             'chunk_size': 250,
+             'dropout': 0,
+             'hid_size': 128,
+             'hop_size': 125,
+             'in_chan': 64,
+             'mask_act': 'relu',
+             'n_repeats': 6,
+             'out_chan': 64},
+ 'optim': {'lr': 0.001, 'optimizer': 'adam', 'weight_decay': 0.0},
+ 'positional arguments': {},
+ 'training': {'batch_size': 1,
+              'early_stop': True,
+              'epochs': 100,
+              'gradient_clipping': 5,
+              'half_lr': True,
+              'num_workers': 8}}
+Drop 970 utts(0.07 h) from 20000 (shorter than 24000 samples)
+Drop 201 utts(0.01 h) from 5000 (shorter than 24000 samples)
+Validation sanity check: 0it [00:00, ?it/s]Validation sanity check:   0%|          | 0/2 [00:00<?, ?it/s]Validation sanity check:  50%|█████     | 1/2 [00:00<00:00,  2.18it/s]Validation sanity check: 100%|██████████| 2/2 [00:00<00:00,  3.17it/s]                                                                      Training: 0it [00:00, ?it/s]Training:   0%|          | 0/23829 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/23829 [00:00<?, ?it/s] Epoch 0:   0%|          | 0/23829 [00:00<?, ?it/s]

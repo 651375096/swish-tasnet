@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="172.20.213.14" showAutoUploadSettingsWarning="false">
+    <serverData>
+      <paths name="172.20.213.14">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/wave-tasnet" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="172.24.216.120">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/chenyang/tasnet" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="172.24.246.121">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/dcxx/chenyang/tasnet" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="chenyang@172.20.213.14:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/chenyang/wave-tasnet" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="chenyang@172.20.213.14:22 password (1)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="chenyang@172.20.213.14:22 password (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="dcxx3:172.24.216.122">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/dcxx/chenyang/tasnet1" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="dcxx@172.24.216.120:22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="云服务器">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/chenyang/tasnet" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="云服务器2号">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/root/autodl-tmp/chenyang/tasnet" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

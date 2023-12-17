@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="region-3.seetacloud.com" id="153836e1-564a-489d-86c5-4ce8ac87cf0e" port="14966" nameFormat="DESCRIPTIVE" username="root" />
+      <sshConfig authType="PASSWORD" host="172.24.216.122" id="6b491f8a-c4f4-464d-bcd7-9c0f46d79598" localPort="22" port="22" nameFormat="DESCRIPTIVE" username="dcxx" />
+    </configs>
+  </component>
+</project>
